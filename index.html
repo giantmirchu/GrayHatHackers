@@ -25,12 +25,13 @@
         .main{
             background-image: url('images/bg-img.jpg'); margin-right:0; color: lightblue;
         }
-        aside{padding-right: 0;}
-        aside img{width: 100%; position: sticky;top:60px;}
+        aside img{width: 100%; position: sticky;top:60px; border-radius: 5%; box-shadow: 5px 8px rgba(0,0,0,0.6);}
         footer{     
             border-top: 1px solid gray; padding: 10px; 
             text-align: center; font-weight: bold;
         }
+        .fix-pad{padding-right:0;}
+        .content{padding: 20px;}
     </style>         
 </head>
 <body>
@@ -41,8 +42,8 @@
     </header>
     </div>
     <div class="row main">
-    <aside class="col-sm-3">
-        <img src="images/second.jpg" alt="A boy taking a pic."  height="360px">
+    <aside class="col-sm-3 fix-pad">
+        <img src="images/second.jpg" alt="A boy taking a pic." width="326px" height="360px">
        
         <div>
            
@@ -50,7 +51,7 @@
     </aside>
     
   
-    <main class="col-sm-6">
+    <main class="col-sm-6 content">
         <h1>Introduction</h1>   
          <p>The term "grey hat", alternatively spelled as "greyhat" or "gray hat", refers to a computer hacker or computer security expert who may sometimes violate laws or typical ethical standards, but does not have the malicious intent typical of a black hat hacker.</p>
 
@@ -64,7 +65,7 @@
     </main>
     
     <aside class="col-sm-3" style="padding-right: 0;">
-        <img src="images/niaz-1.jpg" alt="A boy smiling, beared and wearing glasses"  height="360px">
+        <img src="images/niaz-1.jpg" alt="A boy smiling, beared and wearing glasses"  width="326px" height="360px">
       
         <div>
             <h3>Niazi Niazu</h3>
