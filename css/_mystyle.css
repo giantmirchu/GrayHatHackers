@@ -1,0 +1,30 @@
+html{
+     margin: 0;
+     font-family: "sans-serif",ariel,serif;
+     box-sizing: border-box;         
+}
+body{
+     margin: 0 auto; background: black url("../images/bg-img.jpg");        
+}
+header{
+    padding: 5px;font-family: monospace;font-weight: bold;  background: #111;
+}
+.logo{
+    border-radius: 40%;  
+}
+.main{
+    background-image: url('images/bg-img.jpg'); margin-right:0; color: lightblue;
+ }
+aside img{
+    width: 100%; position: sticky;top:60px; border-radius: 5%; box-shadow: 5px 8px rgba(0,60,0,0.6);
+}
+footer{     
+    border-top: 1px solid gray; padding: 10px; 
+    text-align: center; font-weight: bold;
+}
+.fix-pad{
+    padding-right:0;
+}
+.content{
+    padding: 20px;
+}
